@@ -1,6 +1,6 @@
 # LV 1 zadatak - Osobna stranica
 
-### LINK: 
+### LINK: https://monumental-paprenjak-4d9b75.netlify.app
 
 <hr />
 
