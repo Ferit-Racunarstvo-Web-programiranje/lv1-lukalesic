@@ -1,12 +1,233 @@
 <!DOCTYPE html>
-<html lang="hr">
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivana Ivanić</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1><?= "Hello LV1 task" ?></h1>
+<div class="navbar flex">
+    <img src="Logo.svg" alt="logo">
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+
+    </nav>
+
+    <a href="#" class="contact-btn">Contact Me</a>
+
+
+</div>
+
+    <div class="content">
+        <div class="left-section">
+            <div class="text-section">
+                <h1>Hello, my name is Luka</h1>
+                <h2>I am a <span style="color: rgba(4, 0, 237, 0.846);">Computer Science</span> student at FERIT Osijek</h2>
+            </div>
+            <a href="https://github.com/lukalesic" target="_blank" class="github-button">Get in touch</a>
+
+        </div>
+
+        <div class="right-section">
+            <img src="2.svg" class="lazy" alt="luka lesic" style="width: 2fr; height: 3fr;"> 
+        </div>
+    </div>
+    <script src="lazysizes.min.js"></script> 
+
+  <div class="skills-section">
+    <h2>My Skills</h2>
+   
+  </div>
+  <div class="expertise-section">
+    <h2>My Expertise</h2>
+  </div>
+
+  <div class="square-section">
+    <div class="square">
+      <img src="1.png" class="lazy" alt="Ikona 1"> 
+      <h2>Strategy & direction</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, nobis.</p>
+    </div>
+    <div class="square">
+      <img src="2.png" class="lazy" alt="Ikona 2">
+      <h2>Branding & logo</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, quisquam.</p>
+    </div>
+    <div class="square">
+      <img src="3.png" class="lazy" alt="Ikona 3"> 
+      <h2>UI & UX Design</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, est?</p>
+    </div>
+    <div class="square">
+      <img src="4.png"  class="lazy" alt="Ikona 4"> 
+      <h2>Webflow Development</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, sit.</p>
+    </div>
+  </div>
+  
+  <div class="about-section">
+    <div class="about-image">
+        <img src="osoba.svg" class="lazy" alt="luka lesic">
+    </div>
+    <div class="about-content">
+      <h2>About</h2>
+      <h3>About me</h3>
+      <p>Computer Software Engineering student at Faculty of Electrical Engineering, Computer Science and Information Technology.</p>
+    </div>
+  </div>
+  
+  <div class="recent-projects-container">
+    <div class="recent-projects-left">
+      <h6>Recent projects</h6>
+      <h2>My portfolio</h2>
+    </div>
+    <div class="recent-projects-right">
+      <a href="https://github.com/lukalesic" target="_blank" class="github-button">Visit my GitHub</a>
+    </div>
+  </div>
+  
+    
+<div class="square-section flex">
+    <div class="squarewhite">
+      <img src="5.png" alt="Ikona 1" class="lazy" style="width: 200px; height: 170px;"> 
+      <h2>Strategy</h2>
+      <a href="https://github.com/lukalesic" target="_blank" class="rectangle-button">View on GitHub</a>
+
+    </div>
+    <div class="squarewhite">
+      <img src="6.png" alt="Ikona 2" class="lazy" style="width: 200px; height: 170px;">
+      <h2>Branding</h2>
+      <a href="https://github.com/lukalesic" target="_blank" class="rectangle-button">View on GitHub</a>
+
+    </div>
+    <div class="squarewhite">
+      <img src="7.png" alt="Ikona 3" class="lazy"  style="width: 200px; height: 170px;">
+      <h2>UX Design</h2>
+      <a href="https://github.com/lukalesic" target="_blank" class="rectangle-button">View on GitHub</a>
+
+    </div>
+  
+  </div>
+
+   <div class="customer-testimonials">
+    <div class="testimonial">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p> Super!</p>
+
+        <small>Marko Dubravac</small>
+        <small></small>
+    </div>
+    <div class="testimonial">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>Amazing</p>
+
+        <small>Lovro Dijanovic</small>
+        <small></small>
+    </div>
+    <div class="testimonial">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p> yessss!</p>
+
+        <small>Inoslav Kucenjak</small>
+        <small></small>
+    </div>
+    </div>
+
+    <div class="container">
+    <div class="text-container">
+      <p>Get in touch</p>
+      <h2>Contact me</h2>
+      <p>Lorem ipsum</p>
+    </div>
+  </div>
+
+  
+  <div class="form-container">
+    <form>
+      <div class="form-group">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" aria-labelledby="first-name" class="form-field" />
+      </div>
+      <div class="form-group">
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" aria-labelledby="last-name" class="form-field" />
+      </div>
+    </form>
+  </div>
+
+  <div class="form-container">
+    <form>
+      <div class="form-group">
+        <label for="email" aria-labelledby="email">Email</label>
+        <input type="email" id="email" class="form-field" />
+      </div>
+      <div class="form-group">
+        <label for="phone" aria-labelledby="phone">Phone number</label>
+        <input type="tel" id="phone" class="form-field" />
+      </div>
+    </form>
+  </div>
+
+  <div class="form-container">
+    <form>
+      <div class="form-group">
+        <label for="topic">Choose a Topic</label>
+        <select id="topic" class="form-field">
+          <option value="" selected disabled>Select</option>
+          <option value="1">           Option 1             </option>
+          <option value="2">           Option 2             </option>
+          <option value="3">           Option 3             </option>
+        </select>
+        </div>
+    </form>
+  </div>
+
+  <div class="form-container">
+    <form>
+      <div class="form-group">
+        <div class="form-group">
+            <label for="message">Message</label>
+            <input type="text" id="message" class="form-field" />
+            </div>
+    </form>
+  </div>
+    </div>
+
+
+
+ <div class="form-container">
+  <input type="checkbox" id="accept" name="accept">
+  <label for="accept">I accept the terms</label>
+    </div>
+
+  
+    <button type="submit" class="submit-button">
+    <span class="submit-text">Submit</span>
+  </button>
+
+
+    </section>
+    <footer>
+        <footer class="footer">
+            <nav class="footer-nav">
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+              </ul>
+            </nav>
+          </footer>
+              </footer>
 </body>
+
 </html>
