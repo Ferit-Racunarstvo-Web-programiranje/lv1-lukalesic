@@ -22,17 +22,22 @@ nav {
 }
 
 .contact-btn {
-    display: inline-block;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  
     padding: 10px 20px; 
     color: #5E3BEE; 
     background-color: transparent; 
     border: 2px solid #5E3BEE; 
     text-decoration: none;
+    text-align: center;
   }
   
   .contact-btn:hover {
-    color: #5E3BEE;
-    background-color: #5E3BEE; 
+    color: #ffffff;
+    background-color: #9b86ed; 
+    color:rgba(255, 255, 255, 0.1)
   }
   
 
@@ -74,11 +79,13 @@ nav a.active {
 .text-section h1{
     padding: 10px; 
     font-size: 32px;
+    font-weight: bold;
 
 }
 .text-section h2{
     padding: 10px; 
     font-size: 40px;
+    font-weight: bold;
 
 }
 
@@ -236,13 +243,16 @@ nav a.active {
   
   .recent-projects-left h6 {
     font-size: 12px;
+    font-weight: bold;
     color: #000;
+    padding-left: 20px;
   }
   
   .recent-projects-left h2 {
-    font-size: 30px;
-    color: #000;
-    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: #000000;
   }
   
   .recent-projects-right {
@@ -262,7 +272,7 @@ nav a.active {
   }
 
 .customer-testimonials {
-    background-color: #f0f0f0;
+    background-color: rgb(246, 252, 255);
     padding: 40px;
     display: flex; 
     justify-content: space-between;
@@ -399,6 +409,9 @@ nav a.active {
   button[type="submit"] {
     display: block;
     margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+
   }
   
   #accept {
@@ -460,6 +473,30 @@ nav a.active {
 
 @media (max-width: 480px) {
     nav a {
-        padding: 0.2rem; 
+        padding-top: 40;
+        padding-bottom: 40;
     }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    padding-top: 40;
+    padding-bottom: 40;
+
+  }
+
+  nav a {
+    padding-top: 40;
+    padding-bottom: 40;
+}
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  /* hide some elements on smaller screens */
+  .expertise-section, .skills-section {
+    display: none;
+  }
 }
