@@ -116,7 +116,6 @@ nav a.active {
     color: #000000;
   }
   
-  /* My Expertise */
   .expertise-section {
     margin-top: 12px;
     padding-left: 20px;
@@ -495,7 +494,6 @@ nav a.active {
     font-size: 28px;
   }
   
-  /* hide some elements on smaller screens */
   .expertise-section, .skills-section {
     display: none;
   }
