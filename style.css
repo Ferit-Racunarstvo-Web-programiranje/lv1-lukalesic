@@ -421,6 +421,8 @@ nav a.active {
     background-color: #9400D3;
     color: #fff;
     padding: 0.5rem 1rem;
+    margin-left: 45rem;
+
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -437,6 +439,7 @@ nav a.active {
   .footer {
     background-color: #e6f0ff;
     padding: 1rem;
+    padding-left: 32rem;
     align-items: center;
 
     text-align: center;
@@ -482,6 +485,19 @@ nav a.active {
     flex-direction: column;
     padding-top: 40;
     padding-bottom: 40;
+
+
+  }
+
+  .submit-button {
+    padding: 0.5rem 1rem;
+    margin-left: 15rem;
+
+  }
+
+  .footer {
+    padding: 1rem;
+    padding-left: 9rem;
 
   }
 
